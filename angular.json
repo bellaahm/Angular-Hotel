@@ -84,12 +84,22 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "assets/active.js",
+              "assets/jquery/jquery-2.2.4.min.js",
+              "assets/plugins/plugins.js",
+              "assets/bootstrap/bootstrap.min.js",
+              "assets/bootstrap/popper.min.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "4e092ee1-b211-45d7-9848-6b6d9b20e94c"
   }
 }
